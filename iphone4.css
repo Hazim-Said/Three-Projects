@@ -1,0 +1,44 @@
+body{
+    text-align:end;
+    background-image: url(milad-fakurian-E8Ufcyxz514-unsplash.jpg);
+    background-attachment: fixed;
+     inset: 0; 
+     background-size: cover;
+}
+ 
+  
+.koz{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.koko{
+    text-align: left;
+    margin-bottom: 400px;
+    color:white;
+   
+  
+    text-align: center;
+   
+}
+h1{
+    font-size: xx-large; 
+}
+.sh{
+    font-size: x-large;
+    color: rgb(170, 255, 0);
+}
+.yy{
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+
+}
+fieldset{
+    border-radius: 30px;
+    color: rgb(255, 187, 0);
+}
+

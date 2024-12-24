@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    margin-top: 200px;
+    background-image: url(StockCake-Connected\ Smart\ Devices_1722523110.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:left;
+    
+    
+    
+    
+}
+p{
+    font-size: xx-large;
+    color: rgb(255, 219, 59);
+}
+.zoah{
+    float: center;
+    border-radius: 10px;
+    border: 0%;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 100px;
+    font-weight: 900;
+}
+   

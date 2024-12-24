@@ -1,0 +1,75 @@
+body {
+    background-attachment: fixed;
+    background-image: url('StockCake-Modern Tech Workspace_1722545296.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    font-size: xx-large;
+    color: rgb(235, 3, 3);
+    display: block;
+    margin: 10px 0;
+}
+
+h5 {
+    margin: 10px 0;
+}
+
+.s {
+    border-radius: 10px;
+    border: 1px solid #ccc; /* إضافة حد بسيط للحقول */
+    padding: 10px;
+    width: 100%;
+    max-width: 300px; /* تحديد أقصى عرض للحقول */
+    margin: 0 auto; /* موازاة العناصر في الوسط */
+    display: block;
+}
+
+.ah {
+    color: rgb(0, 60, 255);
+    font-size: 0.9em; /* تصغير الخط قليلاً لتحسين قابلية القراءة */
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(22, 11, 11);
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    margin: 10px 0;
+}
+
+.qq {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    margin: 10px 0;
+}
+
+/* تحسين شكل الزر */
+input[type="submit"] {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e0e0e0;
+}

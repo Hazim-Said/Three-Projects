@@ -1,0 +1,62 @@
+body {
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+select {
+    padding: 5px;
+    border: 3px solid rebeccapurple;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+input {
+    color: #fff;
+    padding: 10px;
+    background-color: rgba(158, 36, 36, 0.986);
+    border: 3px solid blue;
+    border-radius: 5px;
+    width: 100%; /* يملأ العرض الكامل للحاوية */
+    box-sizing: border-box; /* يتأكد من احتساب الحشوة والحدود في العرض الكلي */
+}
+
+span {
+    color: rgb(238, 56, 10);
+    font-size: larger;
+}
+
+.iah {
+    text-align: end;
+    margin-bottom: 20px; /* إضافة مسافة أسفل العناصر في الحاوية */
+}
+
+.hazim {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* يتيح للعناصر أن تلتف عند الحاجة */
+    padding: 20px;
+    margin: 20px auto;
+    max-width:1200px; /* تحديد أقصى عرض للحاوية */
+    background-color: rgba(0, 0, 0, 0.5); /* خلفية شفافة للمساعدة في قراءة النصوص */
+    border-radius: 10px;
+}
+
+.ahmed button {
+    padding: 15px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: rgb(0, 255, 0);
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ahmed button:hover {
+    background-color: rgb(0, 200, 0); /* تغيير لون الزر عند التمرير فوقه */
+}

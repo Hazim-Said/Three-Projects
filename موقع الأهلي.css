@@ -1,0 +1,80 @@
+.said{
+    display: flex;
+    
+}
+.ahh{
+    text-align: center;
+    img{
+        border: 2px solid rgb(0, 0, 0); 
+        border-radius: 20px;
+
+    }
+
+}
+body{
+    background-image: url(https://alahly-images.s3.us-east-2.amazonaws.com/Article/original/1-66ac06bd1c7a6.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+iframe{
+    width: 600px;
+    height: 400px;
+
+}
+    
+iframe > assets{
+    width: 600px;
+    height: 600px;
+}
+.allowfullscreen{
+    border: 1px solid rgb(11, 240, 79);
+    border-radius: 10px;
+    padding: 10px;
+
+  
+            
+  
+}
+
+.allowfullscreen{
+    max-width: 800px;
+   margin: 0% auto;
+   padding: 20px;
+   border-radius: 20px;
+   background-color: beige
+
+
+ 
+    
+    
+    
+}
+
+            
+
+
+.allowfullscreen li{
+   
+    background: #ec6308;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    flex: 1 1 45%; /* يسمح لكل عنصر بأخذ نصف العرض تقريباً */
+    box-sizing: border-box;
+}
+.allowfullscreen ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    
+
+
+
+  
+   

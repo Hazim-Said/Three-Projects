@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    direction: rtl;
+    /* لضبط النص باتجاه اليمين */
+    margin: 0;
+    padding: 20px;
+    background-image: url(haitham-sardi-N0Kf3qoklw8-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+p {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 0% auto;
+    text-align: center;
+    max-width: 400px;
+    background-color: rgba(216, 174, 5, 0.747);
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+img {
+    text-align: center;
+    border: 1px solid rgba(10, 182, 110, 0.877);
+    border-radius: 50%;
+}
+
+.ahmed {
+    border-radius: 10px;
+    max-width: 400px;
+    background-color: firebrick;
+    font-family: cursive;
+
+}
+
+summary {
+    max-width: 200px;
+
+}
+
+ol {
+
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+   display: flex;
+    flex-wrap: wrap;
+    /* لتوزيع العناصر على عدة أسطر إذا لزم الأمر */
+    /* مسافة بين العناصر */
+    gap: 40px;
+    animation: fadeIn 1s ease-in-out; /* تأثير عند تحميل الصفحة */
+
+
+}
+
+ol li:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.02);
+}
+
+ol li {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    animation: slideIn 0.5s ease-out; /* تأثير عند تحميل الصفحة */
+}
+
+ol li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes slideIn {
+    from { transform: translateX(-100px); }
+    to { transform: translateX(0); }
+}
+audio{
+    width: 300px;
+    height: 50px;
+    
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دوائر تفاعلية مع صور بجانب بعضها</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(optical-chemist-aU25FbFl6XE-unsplash.jpg);
+            inset: 0;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+        }
+        .circles-container {
+            display: flex;
+            gap: 20px; /* المسافة بين الدوائر */
+        }
+        .circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden; /* لحماية الصورة من الخروج من الدائرة */
+        }
+        .circle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* لضبط الصورة داخل الدائرة دون تشويه */
+        }
+    </style>
+</head>
+<body>
+    <div class="circles-container">
+        <div class="circle">
+            <a href="موقع موبايلات.html">
+                <img src="https://images.stockcake.com/public/7/9/0/790dbe97-49da-4b94-ae51-bffb347819a6_large/smartphone-on-table-stockcake.jpg" alt="متجر الكتروني">
+            </a>
+        </div>
+        <div class="circle">
+            <a href="موقع كورة.html">
+                <img src="https://images.stockcake.com/public/6/2/c/62c67580-96d3-4f9d-a35a-a0e94540733d_large/soccer-player-kicks-stockcake.jpg" alt="يلا كورة">
+            </a>
+        </div>
+        <div class="circle">
+            <a href="موقع قراءن.html">
+                <img src="https://images.stockcake.com/public/2/d/3/2d361ed8-549c-4653-8f58-af695800aa41_large/mystical-moonlight-gathering-stockcake.jpg" alt="قرآن كريم">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
